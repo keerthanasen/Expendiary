@@ -19,3 +19,20 @@ html {
         font-size: calc(16px + 6vw);
     }
 }
+
+.section-expenses button{
+    padding: 0px 40px;
+    font-weight: bold;
+    text-shadow: 0ps 3ps 4ps rgba(0,0,0,.25);
+    background-color:beige;
+}
+
+.section-expenses .expense{
+    font-size: 16px;
+    border-radius: 0;
+    margin: 0;
+}
+
+.section-expenses .expense .category{
+    font-size: 13px;   
+}
