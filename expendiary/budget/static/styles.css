@@ -1,0 +1,21 @@
+html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkgrey;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.noproject-wrapper{
+    margin-top: 250px;
+    padding: 80px 0px;
+    border: 6px solid purple;
+    border-style:double;
+}
+
+@media(max-width: 992px){
+    .section-stats h1{
+        font-size: calc(16px + 6vw);
+    }
+}

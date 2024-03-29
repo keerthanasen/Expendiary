@@ -1,0 +1,22 @@
+{% extends 'home.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container">
+    <form action="" method = 'POST'>
+        {% csrf_token %}
+        {{ form }}
+        <label for="categoryInput">Expense Categories</label>
+        <input type="text" name = "categoryInput" id="categoryInput">
+        <input type="hidden" name = "categoriesString">
+
+        <ul id="categoriesContainer">
+        </ul>
+
+        <button type = "submit" class = "btn purple">New Project</button>
+    </form>
+</div>
+
+<script src = "{% static 'script.js' %}"></script>
+
+{% endblock %}
